@@ -41,9 +41,18 @@ In the IDE, open **Settings/Preferences > Plugins**, click the gear icon, choose
 
 ## Development
 
-Prerequisites: JDK 17 or newer and internet access to resolve Gradle dependencies.
+Prerequisites: **JDK 21** (not 25+) and internet access to resolve Gradle
+dependencies. Gradle 8.10’s Kotlin DSL cannot parse Java 25/27 version strings,
+so builds fail with a bare `25.0.x` / `27.0.x` error on those JDKs. The project
+pins the Gradle daemon to JDK 21 via `gradle/gradle-daemon-jvm.properties`.
 
 ```bash
+brew install openjdk@21
+# make keg-only Homebrew JDK 21 visible to Gradle (no sudo):
+mkdir -p ~/Library/Java/JavaVirtualMachines
+ln -sfn "$(brew --prefix openjdk@21)/libexec/openjdk.jdk" \
+  ~/Library/Java/JavaVirtualMachines/openjdk-21.jdk
+
 ./gradlew runIde
 ```
 
