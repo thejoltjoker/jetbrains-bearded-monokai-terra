@@ -2,6 +2,7 @@
   "name": "Bearded Monokai Terra",
   "dark": true,
   "author": "BeardedBear",
+  "parentTheme": "ExperimentalDark",
   "editorScheme": "/colorSchemes/Bearded Monokai Terra.xml",
   "colors": {
     "base": "#262329",
@@ -31,7 +32,8 @@
       "borderColor": "border",
       "separatorColor": "border",
       "focusColor": "primary",
-      "focusedBorderColor": "primary"
+      "focusedBorderColor": "primary",
+      "windowBorder": "base"
     },
     "Panel": {
       "background": "panel"
@@ -39,11 +41,56 @@
     "OptionPane": {
       "background": "panel"
     },
+    "Window": {
+      "border": "0,0,0,0,262329"
+    },
+    "MainWindow": {
+      "background": "#262329"
+    },
+    "MainToolbar": {
+      "background": "#262329",
+      "borderColor": "#00000000"
+    },
+    "StatusBar.background": "#2E2B31",
+    "StatusBar.foreground": "#F8F8F2",
+    "StatusBar.borderColor": "#403C43",
+    "StatusBar.hoverBackground": "#47434A",
+    "StatusBar.Widget.foreground": "#F8F8F2",
+    "StatusBar.Widget.hoverForeground": "#F8F8F2",
+    "StatusBar.Widget.hoverBackground": "#47434A",
+    "StatusBar.Widget.pressedForeground": "#F8F8F2",
+    "StatusBar.Widget.pressedBackground": "#39363C",
+    "StatusBar.Breadcrumbs.foreground": "#C1B9BC",
+    "StatusBar.Breadcrumbs.hoverForeground": "#F8F8F2",
+    "StatusBar.Breadcrumbs.hoverBackground": "#47434A",
+    "StatusBar.Breadcrumbs.selectionForeground": "#F8F8F2",
+    "StatusBar.Breadcrumbs.selectionBackground": "#47434A",
+    "Label.foreground": "#F8F8F2",
+    "Label.disabledForeground": "#817A7D",
+    "Label.infoForeground": "#C1B9BC",
+    "Separator": {
+      "separatorColor": "border"
+    },
+    "ScrollBar": {
+      "background": "base",
+      "trackColor": "base",
+      "thumbColor": "border",
+      "hoverThumbColor": "selection",
+      "Transparent": {
+        "thumbColor": "border",
+        "hoverThumbColor": "selection"
+      }
+    },
     "ToolWindow": {
       "background": "base",
       "Header": {
         "background": "panel",
-        "inactiveBackground": "base"
+        "inactiveBackground": "base",
+        "borderColor": "base"
+      },
+      "Stripe": {
+        "background": "base",
+        "borderColor": "#00000000"
       }
     },
     "ActionButton": {
@@ -112,6 +159,7 @@
       "pressedForeground": "accentDark"
     },
     "EditorTabs": {
+      "background": "#262329",
       "underlinedTabBackground": "panel",
       "underlineColor": "accent",
       "inactiveUnderlineColor": "border"
