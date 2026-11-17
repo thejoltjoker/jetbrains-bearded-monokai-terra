@@ -1,0 +1,21 @@
+<idea-plugin>
+  <id>dev.thejoltjoker.bearded-monokai-terra</id>
+  <name>Bearded Monokai Terra</name>
+  <vendor url="https://github.com/thejoltjoker">thejoltjoker</vendor>
+
+  <description><![CDATA[
+    A dark Bearded Monokai Terra UI theme and matching editor color scheme,
+    adapted from the Bearded Theme project for JetBrains IDEs.
+  ]]></description>
+
+  <change-notes><![CDATA[
+    Initial release: Bearded Monokai Terra UI theme and editor color scheme.
+  ]]></change-notes>
+
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="bearded-monokai-terra" path="/bearded-monokai-terra.theme.json"/>
+    <bundledColorScheme path="/colorSchemes/Bearded Monokai Terra.xml"/>
+  </extensions>
+</idea-plugin>

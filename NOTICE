@@ -1,0 +1,11 @@
+Bearded Monokai Terra
+Adapted from the Bearded Theme project:
+https://github.com/BeardedBear/bearded-theme
+
+Theme palette references:
+- src/variations/monokai.ts
+- monokai Terra UI: base #262329, primary #B0A2A6
+- Monokai colors: #78dce8, #a9dc76, #b7d175, #fc9867,
+  #e991e3, #ab9df2, #fc6a67, #ff6188, #78e8c6, #ffd866
+
+Copyright and project attribution belong to BeardedBear and contributors.

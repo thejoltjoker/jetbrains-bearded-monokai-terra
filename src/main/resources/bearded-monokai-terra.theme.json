@@ -1,0 +1,116 @@
+{
+  "name": "Bearded Monokai Terra",
+  "dark": true,
+  "author": "BeardedBear",
+  "editorScheme": "/colorSchemes/Bearded Monokai Terra.xml",
+  "colors": {
+    "base": "#262329",
+    "panel": "#2E2B31",
+    "border": "#403C43",
+    "primary": "#B0A2A6",
+    "text": "#F8F8F2",
+    "secondaryText": "#C1B9BC",
+    "disabledText": "#817A7D",
+    "selection": "#47434A",
+    "selectionInactive": "#39363C",
+    "accent": "#78DCE8",
+    "accentDark": "#5AADB7",
+    "error": "#FC6A67",
+    "warning": "#FFD866",
+    "success": "#A9DC76",
+    "info": "#78DCE8"
+  },
+  "ui": {
+    "*": {
+      "background": "base",
+      "foreground": "text",
+      "selectionBackground": "selection",
+      "selectionForeground": "text",
+      "selectionInactiveBackground": "selectionInactive",
+      "disabledForeground": "disabledText",
+      "borderColor": "border",
+      "separatorColor": "border"
+    },
+    "Panel": {
+      "background": "panel"
+    },
+    "ToolWindow": {
+      "background": "base",
+      "Header": {
+        "background": "panel",
+        "inactiveBackground": "base"
+      }
+    },
+    "ActionButton": {
+      "hoverBackground": "selection",
+      "pressedBackground": "selectionInactive"
+    },
+    "Button": {
+      "default": {
+        "foreground": "base",
+        "startBackground": "primary",
+        "endBackground": "primary"
+      },
+      "startBackground": "panel",
+      "endBackground": "panel"
+    },
+    "TextField": {
+      "background": "panel",
+      "selectionBackground": "selection"
+    },
+    "List": {
+      "selectionBackground": "selection",
+      "selectionInactiveBackground": "selectionInactive"
+    },
+    "Tree": {
+      "selectionBackground": "selection",
+      "selectionInactiveBackground": "selectionInactive"
+    },
+    "Table": {
+      "selectionBackground": "selection",
+      "selectionInactiveBackground": "selectionInactive"
+    },
+    "TabbedPane": {
+      "selectedBackground": "selection",
+      "hoverColor": "selection",
+      "underlineColor": "accent"
+    },
+    "ProgressBar": {
+      "progressColor": "accent",
+      "indeterminateStartColor": "accent",
+      "indeterminateEndColor": "accentDark"
+    },
+    "Link": {
+      "activeForeground": "accent",
+      "hoverForeground": "accent",
+      "pressedForeground": "accentDark"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "panel",
+      "underlineColor": "accent",
+      "inactiveUnderlineColor": "border"
+    },
+    "Notification": {
+      "background": "panel",
+      "borderColor": "border",
+      "errorForeground": "error",
+      "errorBorderColor": "error"
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Red": "#FC6A67",
+      "Actions.Yellow": "#FFD866",
+      "Actions.Green": "#A9DC76",
+      "Actions.Blue": "#78DCE8",
+      "Actions.Grey": "#B0A2A6",
+      "Objects.RedStatus": "#FC6A67",
+      "Objects.YellowStatus": "#FFD866",
+      "Objects.GreenStatus": "#A9DC76",
+      "Objects.BlueStatus": "#78DCE8",
+      "Objects.Purple": "#AB9DF2",
+      "Objects.Pink": "#E991E3",
+      "Objects.Grey": "#817A7D"
+    }
+  }
+}
