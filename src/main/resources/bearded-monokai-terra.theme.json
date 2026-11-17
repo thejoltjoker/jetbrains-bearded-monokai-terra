@@ -29,9 +29,14 @@
       "selectionInactiveBackground": "selectionInactive",
       "disabledForeground": "disabledText",
       "borderColor": "border",
-      "separatorColor": "border"
+      "separatorColor": "border",
+      "focusColor": "primary",
+      "focusedBorderColor": "primary"
     },
     "Panel": {
+      "background": "panel"
+    },
+    "OptionPane": {
       "background": "panel"
     },
     "ToolWindow": {
@@ -45,14 +50,35 @@
       "hoverBackground": "selection",
       "pressedBackground": "selectionInactive"
     },
+    "Component": {
+      "borderColor": "border",
+      "focusColor": "primary",
+      "focusedBorderColor": "primary"
+    },
+    "CheckBox": {
+      "background": "panel"
+    },
     "Button": {
+      "background": "panel",
+      "foreground": "text",
+      "startBackground": "selectionInactive",
+      "endBackground": "selectionInactive",
+      "startBorderColor": "border",
+      "endBorderColor": "border",
+      "disabledBorderColor": "border",
+      "disabledText": "disabledText",
+      "focusedBorderColor": "primary",
+      "shadowColor": "panel",
       "default": {
-        "foreground": "base",
-        "startBackground": "primary",
-        "endBackground": "primary"
-      },
-      "startBackground": "panel",
-      "endBackground": "panel"
+        "foreground": "text",
+        "startBackground": "selection",
+        "endBackground": "selection",
+        "startBorderColor": "primary",
+        "endBorderColor": "primary",
+        "focusedBorderColor": "primary",
+        "focusColor": "panel",
+        "shadowColor": "panel"
+      }
     },
     "TextField": {
       "background": "panel",
